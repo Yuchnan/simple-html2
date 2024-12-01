@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Serif:wght@500&display=swap');
+
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: black;
+}
+
+nav a:hover {
+   font-weight: bold;
+}
+
+header, h2, h3 {
+   font-family: 'Roboto Serif', sans-serif;
+}
+  
+h2 {
+   color: #581aa3;
+}
+  
+h3 {
+   color: #581aa3;
+}
+  
+footer {
+   padding: 20px;
+   color: black;
+   background-color: #4287f5;
+   text-align: center;
+   font-size: 18px;
+   font-weight: bold;
+}
+
+.profile img {
+   height: 200px;
+   width: 300px;
+   padding-top: 20px;
+}
+
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+   background-color: #f0b789;
+}
+
+.jumbotron {
+   font-size: 20px;
+   padding: 60px;
+   background-color: #4287f5;
+   text-align: center;
+   color: black;
+}
+.left {
+   float: left;
+   margin: 10px;
+}
+
+.right {
+   float: right;
+   margin: 10px;
+}
+
+.clear-left{
+   clear: left;
+}
+.clear-right {
+   clear: right;
+}
+
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
+}
+
+nav {
+   background-color: #4287f5;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+}
+
+main {
+   padding: 20px;
+   overflow: auto;
+}
+
+#content {
+   float: left;
+   width: 75%;
+}
+
+aside {
+   float: right;
+   width: 25%;
+   padding-left: 20px;
+}
+
+* {
+   box-sizing: border-box;
+}  
+
+@media screen and (max-width: 1000px) {
+   #content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+}
+
+header {
+   display: inline;
+}
+
+table td, th {
+   text-align: justify;
+   background-color: #f08f41;
+}
+
+table th {
+   padding-right: 20px;
+}
+
+table {
+   width: 300px;
+}
+
+img {
+   max-width: 400px;
+}
+
+table td {
+   text-align: center;
+}
